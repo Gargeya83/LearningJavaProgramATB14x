@@ -8,5 +8,6 @@ is the entry point for Java applications.
 
 public class Lab003_No_Main_Method {
 
-}//no main method
+}
+//no main method
 // The class is valid but cannot be run directly.
