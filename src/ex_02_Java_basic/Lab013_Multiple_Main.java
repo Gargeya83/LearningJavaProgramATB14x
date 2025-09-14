@@ -28,6 +28,6 @@ public class Lab013_Multiple_Main {
     }
 
     public static void main(float args) {
-        System.out.println("Love you 3000");
+        System.out.println("Hello");
     }
 }
