@@ -13,7 +13,7 @@ public class Lab020_Interview_Qn_A2 {
         int Lab020_Interview_QnA2 = 74;
 
         // System.out.println(Enum);
-        System.out.println(enum);
+        //System.out.println(enum);
         System.out.println(a_b);
         System.out.println(GargeyaBorgaonkar);
     }
