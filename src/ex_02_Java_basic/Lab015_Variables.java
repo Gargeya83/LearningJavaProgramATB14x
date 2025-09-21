@@ -10,8 +10,6 @@ public class Lab015_Variables {
         byte age = 65;
         byte age_sunil = 45;
         // short age_sunil = 65;
-        //byte pra2= 128; // overflowing out of space
-        //int enum = 1234; /* this is not possible as enum is keyword, but if we replace enum to Enum then it will work since Java is a
 
         // byte -> data type - type of container
         // age_sunil ->  variable_name |  identifier

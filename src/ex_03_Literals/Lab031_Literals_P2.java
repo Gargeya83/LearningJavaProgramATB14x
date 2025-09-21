@@ -2,8 +2,6 @@ package ex_03_Literals;
 
 public class Lab031_Literals_P2 {
     public static void main(String[] args) {
-
-        //Floating Literal
         float pi = 3.14f;
         float pi2 = 4.12F;
 
@@ -11,6 +9,5 @@ public class Lab031_Literals_P2 {
         System.out.println(x);
         System.out.println(pi);
         System.out.println(pi2);
-        System.out.println("These are the floating literal = " + pi + ", " +  pi2 + ", " + x);
     }
 }
