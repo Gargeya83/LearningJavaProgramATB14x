@@ -15,6 +15,7 @@ public class Lab015_Variables {
 
         // byte -> data type - type of container
         // age_sunil ->  variable_name |  identifier
+
         // = -> Assignment Operator ?  (after some time)
         // 65 -> Variable Value |  Literal
 
@@ -26,7 +27,7 @@ public class Lab015_Variables {
         System.out.println(age);
         System.out.println(age2);
 
-        /* data_type variable_name or identifier = variable_value or literal */
+        //data_type variable_name or identifier = variable_value or literal
 
         int myNum = 5;              // Integer (whole number)
         float myFloatNum = 5.99f;   // Floating point number
