@@ -5,5 +5,6 @@ public class Lab063_Ternary_Operator {
         int age =18;
         String canMeetiJhaGoGoa =  age > 18 ? "Yes" : "No";
         System.out.println(canMeetiJhaGoGoa);
+
     }
 }

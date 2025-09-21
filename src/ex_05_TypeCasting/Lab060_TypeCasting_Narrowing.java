@@ -6,7 +6,6 @@ public class Lab060_TypeCasting_Narrowing {
         //     **0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 1 0 0**
 
         //  byte b = val; // Narrowing - Implicit Casting - Vaid ? No
-
         byte b = (byte) val; // Narrowing - Explicit Casting - Valid
         System.out.println(b);
         //  **0 0 1 0 1 1 0 0**

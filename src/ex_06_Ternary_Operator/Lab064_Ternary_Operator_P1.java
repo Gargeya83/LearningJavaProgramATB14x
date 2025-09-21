@@ -8,5 +8,6 @@ public class Lab064_Ternary_Operator_P1 {
 
             //  if(number > 0){}
             //  else{}
+
     }
 }

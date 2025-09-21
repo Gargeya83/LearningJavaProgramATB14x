@@ -9,5 +9,6 @@ public class Lab065_Interview_Ready_Question {
 
         String result = (age > 18) ? (age > 25 ? "You can drink" : "You can go to GOA, ButN can't Drink") : "No";
         System.out.println(result);
+
     }
 }

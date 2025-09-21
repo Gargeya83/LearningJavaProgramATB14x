@@ -8,6 +8,7 @@ public class Lab062_TypCasting_Used {
         int total = course + (int) GST; // Narrowing - Explicit
         System.out.println(total);
 
+
         float total2 = course + GST; // Widening - auto - implicit
         //        float total3 = (float)course+GST; // Widening  - Explicit
         System.out.println(total2);

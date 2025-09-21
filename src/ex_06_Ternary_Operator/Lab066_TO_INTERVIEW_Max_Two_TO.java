@@ -9,5 +9,6 @@ public class Lab066_TO_INTERVIEW_Max_Two_TO {
 
         int max = x > y ? x : y;
         System.out.println(max);
+
     }
 }

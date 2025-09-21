@@ -8,6 +8,5 @@ public class Lab059_TypeCasting {
         int a1 = (int) b; // Valid Syntax -> Widening -> Explicit Casting - not required
         // Explicit casting where we tell the JVM to datatype
         System.out.println(b);
-
     }
 }
