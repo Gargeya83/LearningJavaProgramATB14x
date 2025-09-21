@@ -15,6 +15,7 @@ public class Lab042_Logical_Operators {
         boolean c1= false && true;
         System.out.println(c1);
 */
+
         boolean a1 = true;
         boolean b1 = false;
         System.out.println(a1 && b1);

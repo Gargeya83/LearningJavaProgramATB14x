@@ -8,7 +8,7 @@ package ex_04_Operators;
    5. = (Equal to)
    6. != (Not equal to)
  */
-public class Lab41_Relational_Operator {
+public class Lab041_Relational_Operator {
     public static void main(String[] args) {
         int a = 10;
         int b = 20;
