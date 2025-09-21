@@ -2,8 +2,8 @@ package ex_03_Literals;
 
 public class Lab035_Char_Literals {
     public static void main(String[] args) {
-        char c1 = 'A'; // A to Z, a-z, !@#$%^&*()_+
-//        char c = "A"; // "" == String = Bunch of Char
+        char c1 = 'A'; // Character can be anything A-Z, a-z, and special character !@#$%^&*()_+
+        // char c = "A"; // "" == String = Bunch of Char
 
         char c2 = 'B';
         char c3 = '@';
@@ -20,15 +20,15 @@ public class Lab035_Char_Literals {
         char carriage_return = '\r';
 
         System.out.println("GargeyaBorgaonkar");
-        System.out.println("Gargeya"+new_line+"Borgaonkar");
+        System.out.println("Gargeya" + new_line + "Borgaonkar");
         System.out.println("Gargeya\nBorgaonkar");
-        System.out.println("Gargeya"+tab_line+"Borgaonkar");
-        System.out.println("Gargeya"+back_space+"Borgaonkar");
-        System.out.println( " ----- ");
+        System.out.println("Gargeya" + tab_line + "Borgaonkar");
+        System.out.println("Gargeya" + back_space + "Borgaonkar");
+        System.out.println(" ----- ");
 
-        System.out.println("Gargeya is "+carriage_return+"Borgaonkar");
+        System.out.println("Gargeya is " + carriage_return + "Borgaonkar");
 
-        System.out.println("Hi, This is a First line"+new_line+"This is second line\n This is Third line");
+        System.out.println("Hi, This is a First line" + new_line + "This is second line\n This is Third line");
 
 
         char c10 = 'A';
@@ -40,6 +40,6 @@ public class Lab035_Char_Literals {
         char my_laugh_smily = '\u1f60'; // :)
         System.out.println(my_laugh_smily);
 
-        char c11  = '\u1F60';
+        char c11 = '\u1F60';
     }
 }
