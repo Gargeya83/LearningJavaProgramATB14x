@@ -2,8 +2,10 @@ package ex_03_Literals;
 
 public class Lab035_Char_Literals {
     public static void main(String[] args) {
-        char c1 = 'A'; // A to Z, a-z, !@#$%^&*()_+
-//        char c = "A"; // "" == String = Bunch of Char
+        // Character Literal
+
+        char c1 = 'A'; // Character can be anything A-Z, a-z, and special character !@#$%^&*()_+
+        // char c = "A"; // "" == String = Bunch of Char
 
         char c2 = 'B';
         char c3 = '@';

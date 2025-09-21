@@ -1,5 +1,11 @@
 package ex_04_Operators;
 
+// Logical Operators -> Digiatal Electronics
+        /* 1. && (And)
+           2. || (OR)
+           3. ! (Not) - Reverse
+         */
+
 public class Lab042_Logical_Operators {
     public static void main(String[] args) {
        /*
