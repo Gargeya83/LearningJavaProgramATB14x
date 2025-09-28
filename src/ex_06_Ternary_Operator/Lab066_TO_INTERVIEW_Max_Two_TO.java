@@ -8,7 +8,9 @@ public class Lab066_TO_INTERVIEW_Max_Two_TO {
         // System.out.println(Math.max(x,y));
 
         int max = x > y ? x : y;
+        String result = x>y ? "X is bigger" : "Y is bigger";
         System.out.println(max);
+        System.out.println(result);
 
     }
 }
