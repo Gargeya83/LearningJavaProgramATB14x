@@ -3,11 +3,14 @@ package ex_05_TypeCasting;
 public class Lab060_TypeCasting_Narrowing {
     public static void main(String[] args) {
         int val = 300;
+        //300 would be converted into its binary equivalent and stored as a sequence of 1s and 0s in a specific memory location
+        // 00000000 00000000 00000001 00101100
         //     **0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 1 0 0**
 
         //  byte b = val; // Narrowing - Implicit Casting - Vaid ? No
-        byte b = (byte) val; // Narrowing - Explicit Casting - Valid
+        byte b = (byte) val; // Narrowing - Explicit Casting - Valid but data loss will be there
         System.out.println(b);
+        //only 8 bit supported hence 00101100
         //  **0 0 1 0 1 1 0 0**
         // Value is
         //

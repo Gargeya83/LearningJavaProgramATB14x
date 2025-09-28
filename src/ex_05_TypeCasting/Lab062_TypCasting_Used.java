@@ -5,7 +5,7 @@ public class Lab062_TypCasting_Used {
         int course = 100;
         float GST = 18.45f;
         //        int total1 = course+GST; // Narrowing - Implicit
-        int total = course + (int) GST; // Narrowing - Explicit
+        int total = course + (int) GST; // Narrowing - Explicit (we will need to do Explicit)
         System.out.println(total);
 
 
