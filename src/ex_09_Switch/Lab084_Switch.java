@@ -1,4 +1,4 @@
-package ex_08_Switch;
+package ex_09_Switch;
 
 import java.util.Scanner;
 

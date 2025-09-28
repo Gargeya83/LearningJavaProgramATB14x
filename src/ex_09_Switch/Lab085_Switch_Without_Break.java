@@ -1,8 +1,9 @@
-package ex_08_Switch;
+package ex_09_Switch;
 
 import java.util.Scanner;
 
 public class Lab085_Switch_Without_Break {
+
     public static void main(String[] args) {
         // Switch
 
@@ -38,4 +39,4 @@ public class Lab085_Switch_Without_Break {
         }
     }
 }
-}
+
