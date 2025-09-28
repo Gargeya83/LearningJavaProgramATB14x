@@ -10,10 +10,10 @@ public class Lab044_Interview_Concat_Plus {
         int a = 10;
         int b = 10;
 
-        System.out.println(first_name + last_name + a + b);
-        System.out.println(a + b + first_name + last_name);
+        System.out.println(first_name + last_name + a + b); // Concatenation first, then addition as strings.
+        System.out.println(a + b + first_name + last_name); // Addition first, then concatenation.
 
-        // BODMAS - Bracket of Div, mul, add, sub
+        // BOD-MAS - Bracket of Div, mul, add, sub
         System.out.println(first_name + last_name + (a + b));
     }
 }

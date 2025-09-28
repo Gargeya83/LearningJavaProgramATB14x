@@ -1,5 +1,6 @@
 package ex_04_Operators;
 
+// Used to compare two values and return a boolean result (true or false)
 public class Lab042_Logical_Operators {
     public static void main(String[] args) {
        /*

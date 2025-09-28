@@ -6,7 +6,7 @@ public class Lab051_New_Operator {
 
         // New Operator
         // Non Primitive variables
-        String name = new String("Gargeya");
+        String name = new String ("Gargeya"); // new operator is used to create object
         // Learn in the OOPs
     }
 }

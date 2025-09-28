@@ -11,7 +11,7 @@ public class Lab043_Interview_Concat_Plus {
         // + -> String -> Concatenation
         String first_name = "Gargeya";
         String last_name = "Borgaonkar";
-        System.out.println(first_name+last_name);
+        System.out.println(first_name+last_name); // Concatenation, not addition, because both are strings.
         //System.out.println("first_name+ " " +last_name");
 
         // System.out.println(first_name-last_name); // Not valid
@@ -20,6 +20,7 @@ public class Lab043_Interview_Concat_Plus {
 
         // + -> behave differently with the data type.
         // + -> operator overloading
-
+        // + operator behaves differently based on the data types of the operands. Is this operator overloading?
+        // No, Java does not support operator overloading in the traditional sense like C++.
     }
 }
