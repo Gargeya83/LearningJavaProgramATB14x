@@ -9,7 +9,7 @@ public class Lab069_Real_Age_Classification {
             return;
         }
 
-        // Step 2 - Read input
+            // Step 2 - Read input
             String user_input =  gargeya_args[0]; //
             System.out.println(user_input);
             //System.out.println(user_input instanceof String);
@@ -17,13 +17,18 @@ public class Lab069_Real_Age_Classification {
 
             // Input - String
             // String - Int
+            //String-Input --> need to be converted to Int
             int age = Integer.parseInt(user_input);
 
-            String result = (age < 18) ? "Minor" : (age <= 60) ? "Adult": "Sr. Citizen";
+            String result = (age < 18) ? "Minor" : ((age <= 60) ? "Adult": "Sr. Citizen");
             System.out.println("Age Classification: " + result);
 
+            int int_Age = Integer.parseInt(user_input);
+            String result1 = (int_Age) <= 0 ? "Invalid age" : (int_Age >0 && int_Age < 18) ? "Minor" : (int_Age >=18 && int_Age < 60 ? "Adult" : "Senior Citizen");
+            System.out.println(result1);
+
+        }
     }
-}
 
 /*
 //Real_Age_Classification (  age → 59 ) →  Minor, Adult (Adult , Sr Senior) - Ternary Operator

@@ -9,10 +9,16 @@ public class Lab070_CLI_INPUTS {
         String input4 = args[3];
         String input5 = args[4];
 
-        System.out.println(input1);
+        System.out.println("age is " + input1);
+        System.out.println(input1 instanceof String); // string test
         System.out.println(input2);
         System.out.println(input3);
         System.out.println(input4);
         System.out.println(input5);
+
+        //java: incompatible types: java.lang.String cannot be converted to int
+        // ---> //int age_int = (int)Input1;
+
+
     }
 }

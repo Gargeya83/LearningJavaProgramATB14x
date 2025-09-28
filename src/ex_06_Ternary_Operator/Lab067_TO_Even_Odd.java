@@ -23,6 +23,10 @@ public class Lab067_TO_Even_Odd {
         result = c==0 ? "Even" : "Odd";
         System.out.printf("The number is = %s", result);
 
+        int number  = 11;
+        String result = (number % 2 ==0) ? "Even" : "Odd";
+        System.out.println(result);
+
  */
     }
 }

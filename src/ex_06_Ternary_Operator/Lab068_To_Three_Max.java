@@ -23,7 +23,9 @@ public class Lab068_To_Three_Max {
         // Step 3 - Dryn Run - program
 
         int max = (n1 > n2) ? ((n1 > n3) ? n1 : n3) : ((n2 > n3) ? n2 : n3);
+        String max1 = n1>=n2 ? (n1>=n3? "N1 is Highest ":"N3 is highest"):(n2>=n3 ? "N2 is highest": "N3 is highestsss");
         System.out.printf("max is %d",max);
+        System.out.printf("max is %d",max1);
 
     }
 }
