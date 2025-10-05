@@ -16,13 +16,14 @@ public class Q5_Triangle_Classifier {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner (System.in);
-        System.out.print("Enter size of side 1: ");
         int a,b,c;
         a=sc.nextInt();
-        System.out.print("Enter size of side 2: ");
+        System.out.print("Enter size of side 1: ");
         b=sc.nextInt();
-        System.out.print("Enter size of side 3: ");
+        System.out.print("Enter size of side 2: ");
         c=sc.nextInt();
+        System.out.print("Enter size of side 3: ");
+
 
         if (a+b<=c || b+c<=a || c+a<=b)
         {
