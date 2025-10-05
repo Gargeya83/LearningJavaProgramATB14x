@@ -1,6 +1,6 @@
 package Java_Question;
 
-public class Q1_Number_is_even_or_odd_using_Ternary_Operator {
+public class Q2_Number_is_even_or_odd_using_Ternary_Operator {
 
     // Check if the number is even or odd by using Ternary Operator.
 

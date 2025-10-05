@@ -1,6 +1,6 @@
 package Java_Question;
 
-public class Q2_Max_between_3_numbers_using_ternary_operator {
+public class Q3_Max_between_3_numbers_using_ternary_operator {
 
     public static void main(String[] args) {
 
