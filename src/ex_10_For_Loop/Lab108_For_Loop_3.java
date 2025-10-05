@@ -1,4 +1,4 @@
-package ex_010_For_Loop;
+package ex_10_For_Loop;
 
 public class Lab108_For_Loop_3 {
 

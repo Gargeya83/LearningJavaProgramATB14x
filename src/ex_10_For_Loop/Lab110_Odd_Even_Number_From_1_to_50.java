@@ -1,4 +1,4 @@
-package ex_010_For_Loop;
+package ex_10_For_Loop;
 
 public class Lab110_Odd_Even_Number_From_1_to_50 {
 
