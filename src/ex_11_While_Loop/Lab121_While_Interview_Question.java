@@ -18,7 +18,7 @@ public class Lab121_While_Interview_Question {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Number for Factorial Program!");
         if(!scanner.hasNextInt()){
-            System.out.println("You Fool, int only!");
+            System.out.println("int only!");
         }else{
             int number = scanner.nextInt();
             int fact = 1;
