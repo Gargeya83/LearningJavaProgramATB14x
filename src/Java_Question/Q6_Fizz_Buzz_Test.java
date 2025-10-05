@@ -1,6 +1,6 @@
 package Java_Question;
 
-/*✅FizzBuzz Test
+/*FizzBuzz Test
 Write a program that prints numbers from 1 to 100.
 However, for multiples of 3, print "Fizz" instead of the number,
 and for multiples of 5, print "Buzz."
