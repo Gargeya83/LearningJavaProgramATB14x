@@ -17,19 +17,22 @@ public class Q5_Triangle_Classifier {
 
         Scanner sc = new Scanner (System.in);
         int a,b,c;
-        a=sc.nextInt();
         System.out.print("Enter size of side 1: ");
-        b=sc.nextInt();
-        System.out.print("Enter size of side 2: ");
-        c=sc.nextInt();
-        System.out.print("Enter size of side 3: ");
+        a = sc.nextInt();
 
+        System.out.print("Enter size of side 2: ");
+        b = sc.nextInt();
+
+        System.out.print("Enter size of side 3: ");
+        c = sc.nextInt();
+
+        // Triangle inequality check
 
         if (a+b<=c || b+c<=a || c+a<=b)
         {
             System.out.println("Not a triangle");
         }
-        else if (a==b && b==c && c==a)
+        else if (a==b && b==c)
         {
             System.out.println("Triangle is Equilateral");
         }
