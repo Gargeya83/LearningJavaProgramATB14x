@@ -36,8 +36,7 @@ public class Q7_Grade_Calculator {
             }
             else if (marks >= 0 && marks <= 59) {
                 System.out.println("Grade F");
-            }
-            else {
+            } else {
                 System.out.println("Please enter marks in integer");
             }
             sc.close();
@@ -49,7 +48,7 @@ public class Q7_Grade_Calculator {
 //}
 
 /*
-ublic static void main(String[] args) {
+public static void main(String[] args) {
         {
             Scanner s= new Scanner(System.in);
             System.out.println("Enter marks of the student: ");
