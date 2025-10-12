@@ -18,4 +18,3 @@ public class Q11_Find_the_second_maximum_number {
         System.out.println(max2);
     }
 }
-
