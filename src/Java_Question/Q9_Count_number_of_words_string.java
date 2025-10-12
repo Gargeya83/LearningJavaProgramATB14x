@@ -33,7 +33,6 @@ public class Q9_Count_number_of_words_string {
     }
 }
 
-
 /*
 public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
@@ -69,6 +68,7 @@ public class NumberOfWords {
 }
 
 -------------------------------------------------------------------
+/*
 public class P4_NumberOfWordsString {
     public static void main(String[] args) {
 
@@ -82,3 +82,85 @@ public class P4_NumberOfWordsString {
      } System.out.println(count);
 }}
  */
+
+/*
+public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Enter String:");
+    String s1 = scanner.nextLine();
+    String[] wordsArray = s1.split(" ");
+    System.out.printf( "The string Constance %d worlds ",wordsArray.length);
+
+}
+}
+
+ */
+/*
+ public static void main(String[] args) {
+        String input = "Java Programming Language";
+        System.out.println("Given string is : "+input);
+        String[] array = input.split(" ");
+        System.out.println("Number of words in a given string is : "+ array.length);
+    }
+}
+ */
+
+/*
+public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Enter the string");
+        String str= scanner.nextLine();
+        printFirstLetterOfEachWord(str);
+        scanner.close();
+    }
+
+    public static void printFirstLetterOfEachWord(String str)
+    {
+        String[] strArray=str.split(" ");
+        System.out.println("Printing first letter of each word");
+        for(String s:strArray)
+        {
+            System.out.println(s.charAt(0));
+        }
+    }
+}
+ */
+/*
+//Program to find number of word ina string
+
+public class Q004_Number_Of_Words_InString {
+    public static void main(String[] args) {
+        Scanner scanner= new Scanner(System.in);
+        System.out.println("Enter the string");
+        String str=scanner.nextLine();
+
+        System.out.println("Number of words in the string is "+countNumberOfwords(str));
+        System.out.println("Number of words without split "+countNumberOfwordsWithoutSplit(str));
+        scanner.close();
+    }
+
+    public static int countNumberOfwords(String str)
+    {
+        int count =0;
+        String[] wordArray=str.split(" ");
+        for(String s:wordArray)
+        {
+        count++;
+        }
+        return count;
+    }
+
+    public static int countNumberOfwordsWithoutSplit(String str)
+    {
+        int count =0;
+        char[] wordArray=str.toCharArray();
+        for(int i=0;i<wordArray.length-1;i++)
+        {
+            if(wordArray[i]==' ')
+            count++;
+        }
+        return count+1;
+    }
+}
+ */
+
