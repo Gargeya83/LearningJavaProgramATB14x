@@ -21,6 +21,7 @@ public class Lab164_2D_Array_iterate_For_Loop {
                 System.out.print("*");
 
             }
+            System.out.print("\n");
             System.out.println();
         }
     }
