@@ -1,7 +1,7 @@
 package ex_17_OOPs;
 
 public class Lab172_P2 {
-    public static <Baby> void main(String[] args) {
+    public static void main(String[] args) {
         ATBx amit = new ATBx();
         // Class - ATBx
         // Object Ref - amit
