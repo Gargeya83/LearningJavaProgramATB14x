@@ -20,12 +20,12 @@ public class ATBx {
     void watchRecordings(){};
 
 }
-/*
-Baby {
+
+/* Baby {
     String name;
 
-    void cry(){}
-    void eat(){}
-    void sleep(){}
+    void cry(){};
+    void eat(){};
+    void sleep(){};
 }
  */
