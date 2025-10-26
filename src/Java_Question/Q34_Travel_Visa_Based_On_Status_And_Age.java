@@ -17,7 +17,7 @@ Visa Status :- Must be a valid string indicating the visa status (e.g., "valid" 
 
 import java.util.Scanner;
 
-public class Q34_Travel_Visa_BasedOn_Status_And_Age {
+public class Q34_Travel_Visa_Based_On_Status_And_Age {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
