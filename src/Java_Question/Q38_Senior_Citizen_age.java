@@ -33,6 +33,44 @@ public class Q38_Senior_Citizen_age {
     }
 }
 
-
+/*
+public class SeniorCitizenAgeValidation {
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int age=0;
+        while(true)
+        {
+            try
+            {
+                System.out.println("Enter age for verification");
+                age=sc.nextInt();
+                break;
+            }
+            catch(InputMismatchException e)
+            {
+                System.out.println("Invalid input, please enter valid age: ");
+                sc.nextLine();
+            }
+        }
+        if(age>=65)
+        {
+            System.out.println("Senior Citizen");
+        }
+        else if(age>=20)
+        {
+            System.out.println("Adult");
+        }
+        else if(age>=13)
+        {
+            System.out.println("Teenager");
+        }
+        else
+        {
+            System.out.println("Child");
+        }
+    }
+}
+ */
 
 
