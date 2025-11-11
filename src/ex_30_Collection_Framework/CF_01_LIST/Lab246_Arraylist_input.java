@@ -1,0 +1,32 @@
+package ex_30_Collection_Framework.CF_01_LIST;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Lab246_Arraylist_input {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String continueInput = "Y";
+        List<String> names = new ArrayList<>();
+        while (continueInput.equalsIgnoreCase("Y")) {
+            System.out.println("Enter the name");
+            String name = scanner.next();
+            names.add(name);
+            scanner.nextLine();// required as we have used Scanner.next() before
+            // which does not consume \n . so above statement is required to consume that.
+            // Work around is always use Scanner.nextLine()
+
+            System.out.println("Do you want to enter another name Y/N");
+            continueInput = scanner.nextLine();
+        }
+
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+        // System.out.println(names);
+        scanner.close();
+    }
+}
