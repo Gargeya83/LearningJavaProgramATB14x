@@ -1,5 +1,5 @@
 package ex_25_ENUM;
-
+/*
 public class Lab208_Enum_Env {
     public static void main(String[] args) {
         System.out.println(Env.Dev.getBaseUrl());
@@ -7,3 +7,5 @@ public class Lab208_Enum_Env {
         System.out.println(Env.Production.getBaseUrl());
     }
 }
+
+ */

@@ -1,13 +1,12 @@
 package ex_25_ENUM;
 
 /*public class Env{
-public static void main(String[] args) {
-//        System.out.println(Env.PROD.getBaseURL());
-//        System.out.println(Env.DEV.getBaseURL());
-
+    public static void main(String[] args) {
+        System.out.println(Env.PROD.getBaseURL());
+        System.out.println(Env.DEV.getBaseURL());
+    }
 }
-}
- */
+*/
 // All environment variables of LAB200_Congrats are present here
     enum Env {
         DEV("https://dev.myapp.com"),
@@ -20,7 +19,8 @@ public static void main(String[] args) {
             this.baseURL = baseURL;
         }
 
-        public String getBaseURL() {
+
+    public String getBaseURL() {
             return this.baseURL;
         }
     }
